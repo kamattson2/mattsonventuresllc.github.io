@@ -1,4 +1,4 @@
-/* Global Styles */
+/* GLOBAL */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,41 +11,74 @@ body {
     width: 90%;
     max-width: 900px;
     margin: auto;
-    padding: 20px 0;
-}
-
-/* Header */
-header {
-    background: #1a1a1a;
-    color: white;
-    padding: 30px 0;
-    text-align: center;
-}
-
-.subtitle {
-    color: #bbb;
-}
-
-/* Hero Section */
-.hero {
-    background: white;
-    text-align: center;
     padding: 40px 0;
 }
 
-.hero h2 {
-    margin-bottom: 10px;
+/* HERO SECTION */
+.hero-section {
+    position: relative;
+    height: 70vh;
+    min-height: 450px;
+    background: url('assets/hero.jpg') center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
-/* Services */
+.overlay {
+    background: rgba(0, 0, 0, 0.45);
+    padding: 40px 60px;
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(2px);
+}
+
+.hero-section h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #e0e0e0;
+}
+
+/* CTA BUTTON */
+.cta-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 24px;
+    background: #1976d2;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+    background: #1259a1;
+}
+
+/* INTRO SECTION */
+.intro {
+    text-align: center;
+    background: white;
+    padding: 50px 0;
+}
+
+/* SERVICES */
 .services {
     background: #eef0f3;
-    padding: 50px 0;
+    padding: 60px 0;
 }
 
 .services h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .grid {
@@ -55,77 +88,45 @@ header {
 
 .card {
     background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
 }
 
 .card h3 {
     margin-top: 0;
 }
 
-/* Contact */
+/* CONTACT */
 .contact {
     text-align: center;
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .email {
     font-weight: bold;
-    letter-spacing: 0.5px;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
-    text-align: center;
-    padding: 20px 0;
     background: #1a1a1a;
     color: #bbb;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Mobile */
+/* MOBILE OPTIMIZATION */
 @media (min-width: 700px) {
     .grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-/* Hero Section Background */
-.hero-section {
-    position: relative;
-    height: 60vh;
-    min-height: 400px;
-    background: url('assets/hero.jpg') center center/cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
 
-/* Dark overlay for readability */
-.hero-section .overlay {
-    background: rgba(0, 0, 0, 0.45);
-    padding: 40px 60px;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.hero-section h1 {
-    margin: 0;
-    font-size: 3rem;
-}
-
-.hero-section .subtitle {
-    font-size: 1.2rem;
-    margin-top: 10px;
-    color: #e0e0e0;
-}
-
-/* Mobile adjustments */
 @media (max-width: 600px) {
     .hero-section h1 {
         font-size: 2rem;
     }
-    .hero-section .overlay {
+    .overlay {
         padding: 25px 30px;
     }
 }
