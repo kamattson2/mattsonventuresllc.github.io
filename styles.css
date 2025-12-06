@@ -52,8 +52,10 @@ body {
 }
 
 .logo-img {
-    height: 45px;
+    height: 40px;
+    max-width: 200px;
     width: auto;
+    object-fit: contain;
     transition: opacity 0.2s;
 }
 
@@ -636,7 +638,8 @@ footer {
     }
     
     .logo-img {
-        height: 35px;
+        height: 30px;
+        max-width: 150px;
     }
     
     .hero-section h1 {
