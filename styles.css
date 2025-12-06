@@ -19,7 +19,7 @@ body {
     position: relative;
     height: 70vh;
     min-height: 450px;
-    background: url('assets/hero.jpg') center center/cover no-repeat;
+    background: url('/assets/hero.jpg') center center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
