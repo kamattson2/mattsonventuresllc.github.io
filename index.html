@@ -9,14 +9,65 @@
 
 <body>
 
+<!-- NAVIGATION -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">Mattson Ventures</div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
 <!-- HERO SECTION -->
-<header class="hero-section">
+<header class="hero-section" id="home">
     <div class="overlay">
         <h1>Mattson Ventures LLC</h1>
         <p class="subtitle">Property Management & Technology Consulting</p>
         <a href="#services" class="cta-button">Our Services</a>
     </div>
 </header>
+
+<!-- ABOUT SECTION -->
+<section class="about" id="about">
+    <div class="container">
+        <h2>About Mattson Ventures</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Founded in the heart of Colorado, Mattson Ventures LLC brings together expertise in 
+                    property management and modern technology solutions. We understand that whether you're 
+                    managing rental properties or modernizing your technical infrastructure, you need a 
+                    partner who delivers results with integrity and precision.
+                </p>
+                <p>
+                    Our dual focus allows us to serve property owners seeking hands-on management and 
+                    businesses needing strategic technology guidance. With years of experience in both 
+                    domains, we bridge the gap between traditional service excellence and cutting-edge 
+                    technical capabilities.
+                </p>
+                <h3>Why Choose Us?</h3>
+                <ul class="about-features">
+                    <li><strong>Local Expertise:</strong> Colorado-based with deep knowledge of mountain rental markets</li>
+                    <li><strong>Technical Excellence:</strong> Enterprise-level cloud architecture and DevOps experience</li>
+                    <li><strong>Hands-On Approach:</strong> Direct involvement in every project and property</li>
+                    <li><strong>Proven Results:</strong> Track record of successful implementations and satisfied clients</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- ABOUT / INTRO -->
 <section class="intro">
@@ -27,6 +78,65 @@
             with a focus on clarity, execution, and hands-on support. From mountain rentals to 
             cloud architecture and DevOps modernization, we solve real problems with real results.
         </p>
+    </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <h2>Portfolio & Case Studies</h2>
+        <p class="section-intro">Examples of our work across property management and technology consulting</p>
+        
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="portfolio-category">Property Management</div>
+                <h3>Mountain Condo Rental</h3>
+                <p>Full-service management of luxury condo in Summit County. Coordinated renovations, 
+                   implemented dynamic pricing strategy, and maintained 95% occupancy rate throughout 
+                   peak and off-peak seasons.</p>
+                <ul class="portfolio-highlights">
+                    <li>24/7 guest support and concierge services</li>
+                    <li>Preventive maintenance program reducing emergency calls by 60%</li>
+                    <li>Revenue optimization through market analysis</li>
+                </ul>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-category">Technology Consulting</div>
+                <h3>Cloud Migration & Modernization</h3>
+                <p>Led Azure migration for mid-sized enterprise, transitioning legacy on-premises 
+                   infrastructure to cloud-native architecture with improved scalability and reduced costs.</p>
+                <ul class="portfolio-highlights">
+                    <li>40% reduction in infrastructure costs</li>
+                    <li>Implemented CI/CD pipelines with Azure DevOps</li>
+                    <li>Zero-downtime migration strategy</li>
+                </ul>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-category">Technology Consulting</div>
+                <h3>DevOps Transformation</h3>
+                <p>Designed and implemented automated deployment pipelines, infrastructure as code, 
+                   and monitoring solutions for fast-growing SaaS company.</p>
+                <ul class="portfolio-highlights">
+                    <li>Deployment frequency increased from monthly to daily</li>
+                    <li>Terraform and Kubernetes implementation</li>
+                    <li>Comprehensive observability with Azure Monitor</li>
+                </ul>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-category">Small Business Support</div>
+                <h3>Website & Digital Setup</h3>
+                <p>Helped local businesses establish professional online presence with custom websites, 
+                   email setup, and DNS configuration.</p>
+                <ul class="portfolio-highlights">
+                    <li>Domain registration and DNS management</li>
+                    <li>Responsive website design and hosting</li>
+                    <li>Ongoing technical support and maintenance</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -57,12 +167,231 @@
     </div>
 </section>
 
-<!-- CONTACT -->
-<section class="contact">
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
     <div class="container">
-        <h2>Contact</h2>
-        <p>For business inquiries or service requests, email:</p>
-        <p class="email">your-email@domain.com</p>
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="testimonial-text">
+                    Mattson Ventures has been managing our Breckenridge condo for two years now. 
+                    Their attention to detail and responsiveness is outstanding. We've had zero 
+                    issues and consistently strong rental income.
+                </p>
+                <div class="testimonial-author">
+                    <strong>Sarah & Michael T.</strong>
+                    <span>Property Owners, Summit County</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="testimonial-text">
+                    Their cloud migration expertise saved us months of work and significant costs. 
+                    The team understood our business needs and delivered a solution that scaled 
+                    with our growth.
+                </p>
+                <div class="testimonial-author">
+                    <strong>James Rodriguez</strong>
+                    <span>CTO, TechStart Solutions</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="testimonial-text">
+                    As a small business owner, I was overwhelmed by technical decisions. Mattson 
+                    Ventures explained everything clearly and set up our entire digital infrastructure 
+                    professionally and affordably.
+                </p>
+                <div class="testimonial-author">
+                    <strong>Linda Chen</strong>
+                    <span>Owner, Mountain Coffee Roasters</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="testimonial-text">
+                    The DevOps transformation they led completely changed how our team deploys software. 
+                    We went from quarterly releases to daily deployments with confidence.
+                </p>
+                <div class="testimonial-author">
+                    <strong>David Park</strong>
+                    <span>VP Engineering, CloudBase Inc.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-container">
+            <div class="faq-column">
+                <h3>Property Management</h3>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What areas do you serve for property management?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We primarily serve Summit County and surrounding Colorado mountain communities, 
+                           including Breckenridge, Keystone, Frisco, and Silverthorne. Contact us to 
+                           discuss properties in other areas.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What's included in your property management service?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Full-service management includes guest booking coordination, 24/7 support, 
+                           maintenance oversight, cleaning coordination, financial reporting, and 
+                           strategic pricing recommendations.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How do you handle maintenance issues?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We have a network of trusted local contractors and respond to issues 
+                           immediately. Preventive maintenance schedules reduce emergencies, and 
+                           we keep you informed of all work performed.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What are your management fees?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our fees are competitive and vary based on property type, services needed, 
+                           and rental frequency. Contact us for a customized quote tailored to your property.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-column">
+                <h3>Technology Consulting</h3>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What cloud platforms do you work with?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We specialize in Microsoft Azure and Amazon AWS, with extensive experience 
+                           in cloud architecture, migrations, DevOps automation, and infrastructure 
+                           as code.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you work with small businesses?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! We offer scaled services for small businesses including website 
+                           setup, DNS/email configuration, cloud storage, and general technical advisory. 
+                           No project is too small.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can you help with DevOps transformation?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we design and implement CI/CD pipelines, infrastructure automation, 
+                           monitoring solutions, and help teams adopt modern DevOps practices for 
+                           faster, more reliable deployments.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What's your typical engagement model?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We offer project-based engagements, ongoing advisory retainers, and hourly 
+                           consulting. We'll work with you to find the model that best fits your needs 
+                           and budget.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <div class="container">
+        <h2>Get In Touch</h2>
+        <p>Ready to discuss your property management or technology needs? Let's talk.</p>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p class="contact-item">
+                    <strong>Email:</strong> <a href="mailto:info@mattsonventures.com" class="email">info@mattsonventures.com</a>
+                </p>
+                <p class="contact-item">
+                    <strong>Location:</strong> Colorado, USA
+                </p>
+                <p class="contact-item">
+                    <strong>Response Time:</strong> Within 24 hours
+                </p>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Interest</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service...</option>
+                            <option value="property-management">Property Management</option>
+                            <option value="technology-consulting">Technology Consulting</option>
+                            <option value="small-business">Small Business Support</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+                <p class="form-note">* To activate the contact form, replace YOUR_FORM_ID in the HTML with your 
+                   <a href="https://formspree.io" target="_blank">Formspree</a> form ID.</p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -72,7 +401,71 @@
 </footer>
 
 <script>
+    // Update copyright year
     document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+
+    // Mobile menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+    
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking a link
+    const navLinks = document.querySelectorAll('.nav-menu a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        });
+    });
+
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                const offset = 80; // Height of navbar
+                const targetPosition = target.offsetTop - offset;
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // FAQ accordion
+    const faqQuestions = document.querySelectorAll('.faq-question');
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', () => {
+            const faqItem = question.parentElement;
+            const isActive = faqItem.classList.contains('active');
+            
+            // Close all FAQ items
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // Open clicked item if it wasn't active
+            if (!isActive) {
+                faqItem.classList.add('active');
+            }
+        });
+    });
 </script>
 
 </body>
