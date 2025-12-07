@@ -136,6 +136,14 @@ body {
     margin: 0;
     font-size: 3rem;
     letter-spacing: 1px;
+    
+}
+
+.hero-logo {
+    width: 180px;      /* adjust to taste */
+    height: auto;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 6px rgba(0,0,0,0.4)); /* optional: makes white logos pop */
 }
 
 .subtitle {
